@@ -1,0 +1,32 @@
+# IDE / local user state
+.vs/
+.qtcreator/
+.agents/
+*.user
+CMakeUserPresets.json
+
+# Build outputs
+build/
+build-*/
+out/
+debug/
+release/
+
+# qmake generated files
+.qmake.stash
+Makefile
+Makefile.*
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Compiled binaries and objects
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
