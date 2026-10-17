@@ -9,6 +9,8 @@
 #include "models/Message.h"
 
 // DatabaseManager 负责本地 SQLite 持久化，避免 UI 代码直接拼 SQL。
+
+
 class DatabaseManager : public QObject
 {
     Q_OBJECT
