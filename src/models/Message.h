@@ -12,6 +12,8 @@ enum class MessageType {
 };
 
 // 消息状态：用于 UI 中展示发送中、已发送、已读或失败等状态。
+
+//
 enum class MessageStatus {
     Sending = 0,
     Sent,
